@@ -87,3 +87,6 @@ Les constantes du modèle
 𝛿
 α,β,γ,δ.
 La méthode et les critères d'optimisation.
+
+## 📬 Contact
+Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue sur GitHub
