@@ -39,7 +39,7 @@ où :
 - Python 3.9 ou version ultérieure
 - Les bibliothèques mentionnées dans `requirements.txt`
 
-🛠️ Fonctionnalités
+## 🛠️ Fonctionnalités
 Simulation des Populations
 
 Utilise l'algorithme d'Euler pour résoudre les équations différentielles du modèle Lotka-Volterra.
@@ -51,7 +51,8 @@ Visualisation Intuitive
 
 Génère des graphiques comparant les populations réelles et simulées.
 Présente les erreurs initiales et finales (MSE) pour évaluer l'amélioration.
-📝 Exemple de Résultats
+
+## 📝 Exemple de Résultats
 Un graphique typique montre l'évolution des populations de lapins et de renards :
 
 Courbes rouges : Données réelles des lapins.
@@ -61,7 +62,7 @@ Lignes bleues : Populations simulées de renards.
 Voici un exemple de graphique généré :
 
 
-📊 Données d'Entrée
+## 📊 Données d'Entrée
 Les données réelles doivent être stockées dans un fichier CSV sous le format suivant :
 
 days	lapin	renard
@@ -72,7 +73,7 @@ days : Temps (en jours),
 lapin : Population des lapins,
 renard : Population des renards.
 
-⚙️ Paramètres Modifiables
+## ⚙️ Paramètres Modifiables
 Vous pouvez ajuster les paramètres suivants dans main.py :
 
 Population initiale des lapins et renards.
