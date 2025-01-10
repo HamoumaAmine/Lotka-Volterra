@@ -89,4 +89,4 @@ Les constantes du modèle
 La méthode et les critères d'optimisation.
 
 ## 📬 Contact
-Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue sur GitHub
+Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter.
