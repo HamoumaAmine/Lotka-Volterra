@@ -1,6 +1,7 @@
 # visualization.py
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 def plot_combined_data(time, lapin_scaled, renard_scaled, lapin_df, renard_df):
     plt.figure(figsize=(12, 8))
     plt.plot(time, lapin_df, 'r--', label="Lapins réels")
@@ -12,6 +13,28 @@ def plot_combined_data(time, lapin_scaled, renard_scaled, lapin_df, renard_df):
     plt.xlabel("Jours")
     plt.ylabel("Population")
     plt.title("Évolution des populations de lapins et de renards")
+=======
+def plot_population_evolution(time, lapin_scaled, renard_scaled, title="Évolution des populations de lapins et de renards prédites"):
+    plt.figure(figsize=(15, 6))
+    plt.plot(time, lapin_scaled, "b-", label="Lapins")
+    plt.plot(time, renard_scaled, "r-", label="Renards")
+    plt.xlabel("Temps")
+    plt.ylabel("Population")
+    plt.title(title)
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+
+
+def plot_real_data(lapin_df, renard_df):
+    plt.figure(figsize=(15, 6))
+    plt.plot(lapin_df, label='Lapins')
+    plt.plot(renard_df, label='Renards')
+    plt.xlabel("Temps")
+    plt.ylabel("Population")
+    plt.title("Évolution des populations de lapins et de renards réelle")
+>>>>>>> 9023ccec4fa95b3e6d638a8098d443fb542175c9
     plt.legend()
     plt.grid(True)
     plt.show()
